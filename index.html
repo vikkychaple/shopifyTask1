@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikky's Chocolate World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="chocolate/logo1.png">
+        <h1 >Welcome to the World of Chocolate</h1>
+    </header>
+     <main>
+        <div class="product">
+            <img src="chocolate/logo1.png" alt="chocolate ">
+           
+            <p >
+               To eat chocolate is to nurture one’s own soul, taking a moment of peace from a chaotic world and filling your heart with joy through its smooth texture and rich flavor.
+            </p>
+     <div class="chocolate-list">
+        <div class="chocolate-item">
+            <img src="chocolate/kit kat.jpg" alt="Chocolate 1">
+            <input type="checkbox" id="chocolate1" class="chocolate-checkbox">
+            <label for="chocolate1">Kit Kat - $2</label>
+            <input type="number" id="quantity1" class="quantity-input" min="0" max="8">
+        </div>
+        <div class="chocolate-item">
+            <img src="chocolate/dairy milk.jpg" alt="Chocolate 2">
+            <input type="checkbox" id="chocolate2" class="chocolate-checkbox">
+            <label for="chocolate2">Dairy Milk - $3</label>
+            <input type="number" id="quantity2" class="quantity-input" min="0" max="8">
+        </div>
+        <div class="chocolate-item">
+            <img src="chocolate/munch.jpg" alt="Chocolate 3">
+            <input type="checkbox" id="chocolate3" class="chocolate-checkbox">
+            <label for="chocolate3">Munch - $1</label>
+            <input type="number" id="quantity3" class="quantity-input" min="0" max="8">
+        </div>
+        <!-- Add more chocolates here with their respective image sources -->
+    </div>
+   
+    <div class="total-price">
+        <p>The Total Price: $<span id="total">0.00</span></p>
+    </div>
+     </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy;Sep 2023 Vikky Chaple. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
